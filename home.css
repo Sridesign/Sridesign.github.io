@@ -1,0 +1,395 @@
+@font-face {
+    font-family: myfont;
+    src: url(BebasNeue-Regular.ttf);
+}
+
+* {
+    text-decoration: none;
+    height: auto;
+}
+
+body {
+    background-color: white;
+    height: 100vh;
+}
+
+.navbar {
+    background: white;
+    font-family: calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: sticky;
+}
+
+.head1 {
+    font-family: myfont;
+    font-size: larger;
+}
+
+.navdiv {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+}
+
+.navdiv li :hover {
+    background-color: blue;
+    color: white;
+}
+
+.logo a {
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+
+li {
+    list-style: circle;
+    display: inline-block;
+}
+
+li a {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 25px;
+    transition: 0.6s;
+    border: 1px solid transparent;
+    margin: 30px;
+    margin-bottom: 40px;
+
+}
+
+.li :hover {
+    background-color: blue;
+    color: white;
+}
+
+button {
+    background-color: blue;
+    margin-left: 10px;
+    border-radius: 20px;
+    border-top: 30px;
+    padding: 10px;
+    width: 100px;
+
+}
+
+button :hover {
+    background-color: blue;
+    color: white;
+}
+
+button a {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.header1 {
+    position: absolute;
+    padding-top: 10%;
+    padding-left: 5%;
+    font-family: myfont;
+    font-size: xx-large;
+    color: darkslategray;
+    text-transform: uppercase;
+}
+
+.header1 h2 {
+    text-transform: capitalize;
+    font-family: calibri;
+    font-size: larger;
+    font-weight: 300;
+    color: black;
+}
+
+.header1 h4 {
+    font-size: large;
+    font-weight: 2000;
+    font-size: medium;
+    line-height: 2;
+    font-family: calibri;
+    color: black;
+}
+
+.lets {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration: underline;
+}
+
+.img1 {
+    position: absolute;
+    padding-left: 60%;
+    padding-top: 10%;
+}
+
+.about-img {
+    position: absolute;
+    padding-right: 30%;
+    padding-top: 36%;
+    padding-left: 5%;
+}
+
+.header2 {
+    position: absolute;
+    padding-left: 50%;
+    padding-top: 45%;
+    text-align: justify;
+    font-family: myfont;
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+
+.header2 h1 {
+    padding-left: 65%;
+    font-family: myfont;
+    color: darkslategray;
+}
+
+.header2 h2 {
+    font-weight: 300;
+    font-size: larger;
+    line-height: 2;
+    font-family: calibri;
+    color: black;
+    padding-left: 34%;
+}
+
+.consu {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.header2 h4 {
+    font-weight: 2000;
+    font-size: small;
+    line-height: 2;
+    font-family: calibri;
+    color: black;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+.bgvideo1 {
+    position: absolute;
+    padding-left: 79%;
+    padding-top: 38%;
+}
+
+.serv {
+    position: absolute;
+    padding-top: 85%;
+    padding-left: 40%;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.serv h1 {
+    padding-left: 3%;
+    text-align: center;
+    font-family: myfont;
+    color: darkslategray;
+}
+
+.serv h2 {
+    font-family: calibri;
+    font-weight: 300;
+    font-size: xx-large;
+}
+.serv1 {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.section1 {
+    position: absolute;
+    padding-left: 3%;
+}
+
+.section1 img {
+    padding-top: 380%;
+    padding-left: 40%;
+}
+
+.section1 h2 {
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 20px;
+    border-width: 3px;
+    text-transform: uppercase;
+    color: #000;
+    padding-top: 10%;
+    text-align: center;
+}
+.serv-btn1 {
+    position: absolute;
+    padding-top: 135%;
+    padding-left: 8.5%;
+}
+.serv-btn1 a {
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: blue;
+    color: #fff;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.section2 {
+    position: absolute;
+    padding-left: 37%;
+}
+
+.section2 img {
+    padding-top: 380%;
+    padding-left: 40%;
+}
+
+.section2 h2 {
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border-width: 3px;
+    color: #000;
+    padding-top: 10%;
+    text-align: center;
+}
+.serv-btn2 {
+    position: absolute;
+    padding-top: 135%;
+    padding-left: 42.5%;
+}
+.serv-btn2 a {
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: blue;
+    color: #fff;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.section3 {
+    position: absolute;
+    padding-left: 70%;
+}
+
+.section3 img {
+    padding-top: 380%;
+    padding-left: 40%;
+}
+
+.section3 h2 {
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border-width: 3px;
+    color: #000;
+    padding-top: 10%;
+    text-align: center;
+}
+.serv-btn3 {
+    position: absolute;
+    padding-top: 135%;
+    padding-left: 76%;
+}
+.serv-btn3 a {
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: blue;
+    color: #fff;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.bookonline {
+    position: absolute;
+    top: 320%;
+    left: 10%;
+    width: 80%;
+    height: 35%;
+    background-color: #b3b0a8;
+    border-radius: 30px;
+}
+.onlineimg {
+    float: left;
+    width: 30%;
+}
+.bookonline h2 {
+    float: right;
+    padding-right: 25%;
+    font-family: calibri;
+    font-size: x-large;
+    font-weight: 300;
+}
+.bookonline2 {
+    position: absolute;
+    top: 370%;
+    left: 10%;
+    width: 80%;
+    height: 35%;
+    background-color: skyblue;
+    border-radius: 30px;
+}
+.onlineimg2 {
+    float: right;
+    width: 30%;
+}
+.bookonline2 h2 {
+    float: left;
+    padding-right: 10%;
+    padding-left: 5%;
+    font-family: calibri;
+    font-size: x-large;
+    font-weight: 300;
+}
+.on-head2 {
+    font-weight: 500;
+    font-size: xx-large;
+}
+.on-head1 {
+    font-weight: 500;
+    font-size: xx-large;
+}
+.on-btn1 {
+    position: absolute;
+    left: 80%;
+    top: 75%;
+}
+.on-btn1 a {
+    border: 1px solid transparent;
+    padding: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 30px;
+    background-color: blue;
+    color: #fff;
+    font-family: calibri;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.on-btn2 {
+     position: absolute;
+     left: 50%;
+     top: 83%;
+}
+.on-btn2 a {
+    border: 1px solid transparent;
+    padding: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 30px;
+    background-color: blue;
+    color: #fff;
+    font-family: calibri;
+    font-weight: 700;
+    text-transform: uppercase;
+}
